@@ -9,6 +9,7 @@ import java.text.NumberFormat
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding // lateinit means that I promise that my code will initialize the variable before using it
+
     // Note: use "ctrl shift p" to find type of variable
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
